@@ -7,6 +7,5 @@ then
 echo done
 exit 1
 fi
-unzip -P $pass $pass.zip
-rm $pass.zip
+unzip -P $pass $pass.zip  && rm $pass.zip
 done
